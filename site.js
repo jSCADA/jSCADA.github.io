@@ -93,12 +93,5 @@ $(document).ready(function (){
             });
         }
 	});
-
-    function animateHomeBackground() {
-        $('#home').css({'background-position-x': '0px'});
-        $('#home').animate({'background-position-x': '800px'}, 40000, 'linear', animateHomeBackground);
-    }
-
-    animateHomeBackground(); // Magic
 });
 
