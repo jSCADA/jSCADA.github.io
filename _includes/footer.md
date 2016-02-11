@@ -1,0 +1,1 @@
+Based on the [SinglePaged theme](https://github.com/t413/SinglePaged) &mdash; jSCADA is [an open source project]({{ site.source_link }})

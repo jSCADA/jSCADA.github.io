@@ -1,0 +1,38 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+include: ['_pages']
+
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "jSCADA - Open source SCADA system written in Java"
+keywords:    "Java, SCADA"
+description: "Open source SCADA system written in Java"
+source_link: "https://github.com/jSCADA"
+favicon:     "images/favicon.ico"
+touch_icon:  "images/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#000000'
+  white:     '#FFFFFF'
+  gray:	     '#111111'
+  navactive: '#188ac7'
+
+kramdown:
+  auto_ids:  false
+
